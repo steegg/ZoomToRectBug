@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZoomToRectBugViewController : UIViewController
+@interface ZoomToRectBugViewController : UIViewController <UIScrollViewDelegate>
+    
 
 @end

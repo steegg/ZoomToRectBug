@@ -1,0 +1,3 @@
+ZoomToRectBug is a simple demo Application for both iPhone & iPad.
+It demonstrates a bug which occurs when using the UIScrollView in conjunction with the "zoomToRect" method.
+The bug occurs when the size of the contentView.frame is smaller than the UIScrollView.frame and the  "zoomToRect" method is called for a second time. The first time is zooms to the correct scale and the content offset is {0,0}, the second time the zoom scale is the correct but the content jumps, it is offset to the right and to the bottom.
