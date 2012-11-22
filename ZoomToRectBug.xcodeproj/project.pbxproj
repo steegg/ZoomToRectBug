@@ -24,6 +24,8 @@
 		AAABD40B165E62FB00D75548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAABD3E3165E62FB00D75548 /* Foundation.framework */; };
 		AAABD413165E62FB00D75548 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAABD411165E62FB00D75548 /* InfoPlist.strings */; };
 		AAABD416165E62FC00D75548 /* ZoomToRectBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAABD415165E62FC00D75548 /* ZoomToRectBugTests.m */; };
+		AAABD421165E639900D75548 /* Cross.m in Sources */ = {isa = PBXBuildFile; fileRef = AAABD420165E639900D75548 /* Cross.m */; };
+		AAABD42F165E645600D75548 /* README in Resources */ = {isa = PBXBuildFile; fileRef = AAABD42E165E645600D75548 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,9 @@
 		AAABD412165E62FB00D75548 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AAABD414165E62FC00D75548 /* ZoomToRectBugTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZoomToRectBugTests.h; sourceTree = "<group>"; };
 		AAABD415165E62FC00D75548 /* ZoomToRectBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomToRectBugTests.m; sourceTree = "<group>"; };
+		AAABD41F165E639900D75548 /* Cross.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cross.h; sourceTree = "<group>"; };
+		AAABD420165E639900D75548 /* Cross.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cross.m; sourceTree = "<group>"; };
+		AAABD42E165E645600D75548 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				AAABD3E7165E62FB00D75548 /* ZoomToRectBug */,
+				AAABD42E165E645600D75548 /* README */,
 				AAABD40E165E62FB00D75548 /* ZoomToRectBugTests */,
 				AAABD3E0165E62FB00D75548 /* Frameworks */,
 				AAABD3DE165E62FB00D75548 /* Products */,
@@ -123,6 +129,8 @@
 				AAABD3F1165E62FB00D75548 /* ZoomToRectBugAppDelegate.m */,
 				AAABD3F9165E62FB00D75548 /* ZoomToRectBugViewController.h */,
 				AAABD3FA165E62FB00D75548 /* ZoomToRectBugViewController.m */,
+				AAABD41F165E639900D75548 /* Cross.h */,
+				AAABD420165E639900D75548 /* Cross.m */,
 				AAABD3FC165E62FB00D75548 /* ZoomToRectBugViewController_iPhone.xib */,
 				AAABD3FF165E62FB00D75548 /* ZoomToRectBugViewController_iPad.xib */,
 				AAABD3E8165E62FB00D75548 /* Supporting Files */,
@@ -241,6 +249,7 @@
 				AAABD3F8165E62FB00D75548 /* Default-568h@2x.png in Resources */,
 				AAABD3FE165E62FB00D75548 /* ZoomToRectBugViewController_iPhone.xib in Resources */,
 				AAABD401165E62FB00D75548 /* ZoomToRectBugViewController_iPad.xib in Resources */,
+				AAABD42F165E645600D75548 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +287,7 @@
 				AAABD3EE165E62FB00D75548 /* main.m in Sources */,
 				AAABD3F2165E62FB00D75548 /* ZoomToRectBugAppDelegate.m in Sources */,
 				AAABD3FB165E62FB00D75548 /* ZoomToRectBugViewController.m in Sources */,
+				AAABD421165E639900D75548 /* Cross.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +472,7 @@
 				AAABD41B165E62FC00D75548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAABD41C165E62FC00D75548 /* Build configuration list for PBXNativeTarget "ZoomToRectBugTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +481,7 @@
 				AAABD41E165E62FC00D75548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
